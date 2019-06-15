@@ -16,3 +16,14 @@ body {
     color: #827710;
     cursor: pointer;
 }
+
+#question-form {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16pt;
+    color: #FFE81F;
+}
+
+#finish-button:hover {
+    color: #827710;
+    cursor: pointer;
+}
