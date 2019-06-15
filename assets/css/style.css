@@ -18,7 +18,7 @@ body {
 }
 
 #question-form {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Russo One', sans-serif;
     font-size: 16pt;
     color: #FFE81F;
 }
@@ -26,4 +26,8 @@ body {
 #finish-button:hover {
     color: #827710;
     cursor: pointer;
+}
+
+.navbar-fluid {
+    background: url("../images/background.jpg");
 }
