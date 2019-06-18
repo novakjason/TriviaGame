@@ -39,17 +39,10 @@
 
 <body>
 
-    <nav class="navbar-fluid sticky-top">
-            
-                <div class="col my-2 d-inline-flex justify-content-center">
-                    <div id="titlelogo">
-                        <img class="img-fluid" src="assets/images/logo.png">
-                    </div>
-                </div>
-          
+    <nav class="navbar-fluid sticky-top">       
        
                 <div class="col my-1 d-inline-flex justify-content-center">
-                    <div id="timer" class="my-3"></div>
+                    <div id="timer" class="orbitron">00:00</div>
                 </div>
            
 
@@ -58,9 +51,16 @@
 
     <div class="container">
 
+
+        <div class="col my-1 d-inline-flex justify-content-center">
+            <div id="titlelogo">
+                <img class="img-fluid" src="assets/images/logo.png">
+            </div>
+        </div>
+
         <div class="row">
             <div class="col d-inline-flex justify-content-center">
-                <button id="start-button" class="btn my-3 theTime">Start!</button>
+                <button id="start-button" class="btn my-3 orbitron">Start!</button>
 
             </div>
         </div>
@@ -69,12 +69,16 @@
             <div class="col my-3 d-inline-flex justify-content-center">
                 <div id="question-form">
                 </div>
+                <div id="scoreboard">
+                    <div id="correctAnswers"></div>
+                    <div id="wrongAnswers"></div>
+                </div>
             </div>
         </div>
 
         <div class="row">
             <div class="col my-3 d-inline-flex justify-content-center">
-                <button id="finish-button" class="btn my-3 theTime" type="submit">Done.</button>
+                <button id="finish-button" class="btn my-3 orbitron" type="submit">Submit.</button>
             </div>
         </div>
 

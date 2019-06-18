@@ -2,25 +2,32 @@ body {
     background: url("../images/background.jpg");
   }
 
-.theTime {
+.orbitron {
     font-family: 'Orbitron', sans-serif;
     font-size: 33px;
     color: #FFE81F;
 }
 
-#start-button {
-    font-size: 33px;
+.russo {
+    font-family: 'Russo One', sans-serif;
+    color: #FFE81F;
+}
+
+.question {
+    font-size: 18pt;
+}
+
+.answer {
+    font-size: 14pt;
+}
+
+.score {
+    font-size: 24pt;
 }
 
 #start-button:hover {
     color: #827710;
     cursor: pointer;
-}
-
-#question-form {
-    font-family: 'Russo One', sans-serif;
-    font-size: 16pt;
-    color: #FFE81F;
 }
 
 #finish-button:hover {
